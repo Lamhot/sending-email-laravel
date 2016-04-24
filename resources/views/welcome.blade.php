@@ -36,10 +36,8 @@
         </style>
     </head>
     <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
-        </div>
+    Here is an image from raw data:
+
+    <img src="<?php echo $message->embedData($data, $name); ?>">
     </body>
 </html>
